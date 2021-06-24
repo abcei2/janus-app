@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 // import Video from 'react-native-video';
 var JanusClient = require('janus-videoroom-client').Janus;
 var client = new JanusClient({
-  url: 'ws://207.246.118.54:8188'
+  url: 'ws://localhost:8188'
 });
 var pc = null;
 
